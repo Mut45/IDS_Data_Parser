@@ -1,0 +1,376 @@
+
+ 00:00:00.000000 rule 0/0(match): block in on lo0: ::1.65323 > ::1.49332: UDP, length 0
+ 00:00:13.719663 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.000004 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.000000 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.906874 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.1: igmp query v2
+ 00:00:01.156138 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:01.249968 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000003 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000001 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:03.107607 rule 0/0(match): block in on lo0: ::1.65323 > ::1.49332: UDP, length 0
+ 00:00:00.857316 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:00.000003 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:00.000001 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:00.087165 rule 0/0(match): block in on em0: 10.53.6.44.58070 > 10.138.120.3.22: Flags [.], ack 1177629144, win 2048, options [nop,nop,TS val 310444302 ecr 27555817], length 0
+ 00:00:02.014002 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:13.269864 rule 0/0(match): block in on tap0: 10.138.120.6.52717 > 50.205.244.110.123: NTPv4, Client, length 48
+ 00:00:03.791965 rule 0/0(match): block in on lo0: ::1.65323 > ::1.49332: UDP, length 0
+ 00:00:05.121494 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:01.149900 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000003 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000001 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:13.768275 rule 0/0(match): block in on lo0: ::1.65323 > ::1.49332: UDP, length 0
+ 00:00:03.099481 rule 2/0(match): pass in on em0: 10.53.12.251.54683 > 10.138.120.3.3128: Flags [S], seq 2348344759, win 65535, options [mss 1386,nop,wscale 6,nop,nop,TS[|tcp]>
+ 00:00:00.002550 rule 6/0(match): pass out on em0: 10.138.120.3.33471 > 10.48.88.2.53: 61947+[|domain]
+ 00:00:00.002806 rule 6/0(match): pass out on em0: 10.138.120.3.14127 > 204.85.32.97.80: Flags [S], seq 4261731340, win 65535, options [mss 1460,nop,wscale 6,sackOK,TS[|tcp]>
+ 00:00:00.000930 rule 6/0(match): pass out on lo0: ::1.49332 > ::1.65323: UDP, length 60
+ 00:00:00.000095 rule 6/0(match): pass out on em0: 10.138.120.3 > 204.85.32.97: ICMP echo request, id 51062, seq 6400, length 69
+ 00:00:04.324843 rule 0/0(match): block in on tap0: fe80::2a0:98ff:fe42:3787 > ff02::2: ICMP6, router solicitation, length 16
+ 00:00:06.086424 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.000003 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.000001 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.908168 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.1: igmp query v2
+ 00:00:00.205208 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.749356 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000004 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000000 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.015772 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:00.000004 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:00.000000 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:08.099335 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:12.445062 rule 0/0(match): block in on em0: 10.53.6.44.58070 > 10.138.120.3.22: Flags [.], ack 1, win 2048, options [nop,nop,TS val 310518263 ecr 27555817], length 0
+ 00:00:07.788912 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:01.350243 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000003 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000001 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:13.899033 rule 2/0(match): pass in on em0: 10.53.6.247.58767 > 10.138.120.3.3128: Flags [S], seq 165112617, win 65535, options [mss 1386,nop,wscale 5,nop,nop,TS[|tcp]>
+ 00:00:00.002403 rule 6/0(match): pass out on em0: 10.138.120.3.33471 > 10.48.88.2.53: 20151+[|domain]
+ 00:00:00.002371 rule 6/0(match): pass out on em0: 10.138.120.3.45204 > 72.21.91.70.443: Flags [S], seq 358169286, win 65535, options [mss 1460,nop,wscale 6,sackOK,TS[|tcp]>
+ 00:00:14.194334 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.337043 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.000004 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.000000 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.878034 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:00.000003 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:00.000001 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:00.031258 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.1: igmp query v2
+ 00:00:00.604333 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000003 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000001 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:01.264504 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:26.383621 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:01.750029 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000004 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000001 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:06.561883 rule 0/0(match): block in on em0: 10.53.6.44.58070 > 10.138.120.3.22: Flags [.], ack 1, win 2048, options [nop,nop,TS val 310592296 ecr 27555817], length 0
+ 00:00:20.937284 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:01.587032 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.000004 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.000000 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.362597 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000003 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000001 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.546247 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.1: igmp query v2
+ 00:00:01.368756 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:00.000004 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:00.000000 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:04.800130 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:21.133629 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:01.450146 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000003 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000001 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:01.956005 rule 2/0(match): pass in on em0: 10.53.12.251.54831 > 10.138.120.3.3128: Flags [S], seq 3012508630, win 65535, options [mss 1386,nop,wscale 6,nop,nop,TS[|tcp]>
+ 00:00:00.006429 rule 6/0(match): pass out on em0: 10.138.120.3.33471 > 10.48.88.2.53: 52513+[|domain]
+ 00:00:00.002308 rule 6/0(match): pass out on em0: 10.138.120.3.23151 > 204.85.32.97.80: Flags [S], seq 2223894395, win 65535, options [mss 1460,nop,wscale 6,sackOK,TS[|tcp]>
+ 00:00:01.995960 rule 2/0(match): pass in on em0: 10.53.12.251.54863 > 10.138.120.3.3128: Flags [S], seq 1256982158, win 65535, options [mss 1386,nop,wscale 6,nop,nop,TS[|tcp]>
+ 00:00:00.017588 rule 6/0(match): pass out on em0: 10.138.120.3.30635 > 23.195.64.236.443: Flags [S], seq 1642677095, win 65535, options [mss 1460,nop,wscale 6,sackOK,TS[|tcp]>
+ 00:00:00.118505 rule 2/0(match): pass in on em0: 10.53.12.251.54866 > 10.138.120.3.3128: Flags [S], seq 2508473734, win 65535, options [mss 1386,nop,wscale 6,nop,nop,TS[|tcp]>
+ 00:00:00.002361 rule 2/0(match): pass in on em0: 10.53.12.251.54867 > 10.138.120.3.3128: Flags [S], seq 328892181, win 65535, options [mss 1386,nop,wscale 6,nop,nop,TS[|tcp]>
+ 00:00:00.003823 rule 6/0(match): pass out on em0: 10.138.120.3.15761 > 35.164.130.113.443: Flags [S], seq 1587019784, win 65535, options [mss 1460,nop,wscale 6,sackOK,TS[|tcp]>
+ 00:00:00.000016 rule 6/0(match): pass out on em0: 10.138.120.3.45031 > 35.164.130.113.443: Flags [S], seq 568399485, win 65535, options [mss 1460,nop,wscale 6,sackOK,TS[|tcp]>
+ 00:00:00.029369 rule 2/0(match): pass in on em0: 10.53.12.251.54868 > 10.138.120.3.3128: Flags [S], seq 2351763179, win 65535, options [mss 1386,nop,wscale 6,nop,nop,TS[|tcp]>
+ 00:00:00.004976 rule 6/0(match): pass out on em0: 10.138.120.3.63483 > 172.217.15.74.443: Flags [S], seq 3565047329, win 65535, options [mss 1460,nop,wscale 6,sackOK,TS[|tcp]>
+ 00:00:00.054493 rule 2/0(match): pass in on em0: 10.53.12.251.54869 > 10.138.120.3.3128: Flags [S], seq 1454769474, win 65535, options [mss 1386,nop,wscale 6,nop,nop,TS[|tcp]>
+ 00:00:00.004222 rule 6/0(match): pass out on em0: 10.138.120.3.24933 > 74.125.136.94.80: Flags [S], seq 2706698506, win 65535, options [mss 1460,nop,wscale 6,sackOK,TS[|tcp]>
+ 00:00:00.007330 rule 6/0(match): pass out on em0: 10.138.120.3 > 74.125.136.94: ICMP echo request, id 51062, seq 6656, length 58
+ 00:00:12.186480 rule 2/0(match): pass in on em0: 10.53.12.251.54934 > 10.138.120.3.3128: Flags [S], seq 2545259632, win 65535, options [mss 1386,nop,wscale 6,nop,nop,TS[|tcp]>
+ 00:00:00.021147 rule 6/0(match): pass out on em0: 10.138.120.3.48287 > 52.5.179.74.443: Flags [S], seq 1704977388, win 65535, options [mss 1460,nop,wscale 6,sackOK,TS[|tcp]>
+ 00:00:06.405028 rule 0/0(match): block in on em0: 10.53.6.44.58070 > 10.138.120.3.22: Flags [.], ack 1, win 2048, options [nop,nop,TS val 310666547 ecr 27555817], length 0
+ 00:00:05.433231 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.900014 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000003 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000001 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:01.186350 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.000003 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.000001 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.910349 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.1: igmp query v2
+ 00:00:02.168367 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:00.000004 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:00.000000 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:01.099155 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:23.136536 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:01.347224 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000003 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000001 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:28.448928 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.800389 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000003 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000000 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:02.086565 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.000004 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.000000 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.910637 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.1: igmp query v2
+ 00:00:00.168161 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:06.436785 rule 0/0(match): block in on em0: 10.53.6.44.58070 > 10.138.120.3.22: Flags [.], ack 1, win 2048, options [nop,nop,TS val 310732802 ecr 27555817], length 0
+ 00:00:00.362335 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:00.000003 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:00.000001 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:16.064772 rule 0/0(match): block in on tap0: 10.138.120.6.54652 > 193.219.28.2.123: NTPv4, Client, length 48
+ 00:00:02.870641 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.850075 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000004 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000001 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:29.098104 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.700520 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000003 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000000 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:02.535607 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.000003 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.000001 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.911383 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.1: igmp query v2
+ 00:00:02.866194 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:00.000003 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:00.000001 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:05.000625 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:13.798671 rule 0/0(match): block in on em0: 10.53.6.44.58070 > 10.138.120.3.22: Flags [.], ack 1, win 2048, options [nop,nop,TS val 310788276 ecr 27555817], length 0
+ 00:00:03.286217 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:01.349924 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000004 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000001 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:28.448364 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:01.299957 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000003 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000001 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:03.036534 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.000003 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.000001 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.912912 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.1: igmp query v2
+ 00:00:03.265123 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:02.900749 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:00.000003 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:00.000001 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:18.483546 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.550533 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000004 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000000 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:11.521097 rule 0/0(match): block in on em0: 10.53.6.44.58070 > 10.138.120.3.22: Flags [.], ack 1, win 2048, options [nop,nop,TS val 310862394 ecr 27555817], length 0
+ 00:00:06.891805 rule 0/0(match): block in on tap0: 10.138.120.6.138 > 10.138.120.255.138: NBT UDP PACKET(138)
+ 00:00:00.000003 rule 0/0(match): block in on bridge0: 10.138.120.6.138 > 10.138.120.255.138: NBT UDP PACKET(138)
+ 00:00:00.000001 rule 0/0(match): block in on tap0: 10.138.120.6.138 > 10.138.120.255.138: NBT UDP PACKET(138)
+ 00:00:00.000002 rule 0/0(match): block in on tap0: 10.138.120.6.138 > 10.138.120.255.138: NBT UDP PACKET(138)
+ 00:00:00.000001 rule 0/0(match): block in on bridge0: 10.138.120.6.138 > 10.138.120.255.138: NBT UDP PACKET(138)
+ 00:00:00.000000 rule 0/0(match): block in on tap0: 10.138.120.6.138 > 10.138.120.255.138: NBT UDP PACKET(138)
+ 00:00:10.685845 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000004 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000000 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.049845 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:04.735575 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.000003 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.000001 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.914234 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.1: igmp query v2
+ 00:00:02.339190 rule 2/0(match): pass in on em0: 10.53.12.251.54994 > 10.138.120.3.3128: Flags [S], seq 4035104807, win 65535, options [mss 1386,nop,wscale 6,nop,nop,TS[|tcp]>
+ 00:00:00.003527 rule 6/0(match): pass out on em0: 10.138.120.3.33471 > 10.48.88.2.53: 8253+[|domain]
+ 00:00:00.002096 rule 6/0(match): pass out on em0: 10.138.120.3.39706 > 54.236.184.244.443: Flags [S], seq 166085355, win 65535, options [mss 1460,nop,wscale 6,sackOK,TS[|tcp]>
+ 00:00:05.721839 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:00.897734 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:00.000004 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:00.000000 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:05.290088 rule 0/0(match): block in on tap0: 10.138.120.6.36966 > 208.111.35.197.123: NTPv4, Client, length 48
+ 00:00:05.707568 rule 0/0(match): block in on tap0: 10.138.120.6.43045 > 91.189.89.199.123: NTPv4, Client, length 48
+ 00:00:03.636713 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.599693 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000003 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000001 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:28.999473 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.349034 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000004 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000000 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:05.536413 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.000004 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.000000 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.914068 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.1: igmp query v2
+ 00:00:03.564250 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:00.000004 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:00.000000 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:01.503065 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:17.881405 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000003 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000001 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.100375 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:28.876784 rule 2/0(match): pass in on em0: 10.53.12.251.54996 > 10.138.120.3.3128: Flags [S], seq 1835350477, win 65535, options [mss 1386,nop,wscale 6,nop,nop,TS[|tcp]>
+ 00:00:00.003398 rule 6/0(match): pass out on em0: 10.138.120.3.33471 > 10.48.88.2.53: 12788+[|domain]
+ 00:00:00.002139 rule 2/0(match): pass in on em0: 10.53.12.251.54997 > 10.138.120.3.3128: Flags [S], seq 2275194929, win 65535, options [mss 1386,nop,wscale 6,nop,nop,TS[|tcp]>
+ 00:00:00.027496 rule 6/0(match): pass out on em0: 10.138.120.3.45825 > 108.177.122.121.443: Flags [S], seq 2068698138, win 65535, options [mss 1460,nop,wscale 6,sackOK,TS[|tcp]>
+ 00:00:00.006383 rule 6/0(match): pass out on em0: 10.138.120.3.23664 > 151.101.249.164.443: Flags [S], seq 2649092083, win 65535, options [mss 1460,nop,wscale 6,sackOK,TS[|tcp]>
+ 00:00:00.305165 rule 2/0(match): pass in on em0: 10.53.12.251.54998 > 10.138.120.3.3128: Flags [S], seq 3556551181, win 65535, options [mss 1386,nop,wscale 6,nop,nop,TS[|tcp]>
+ 00:00:00.020030 rule 6/0(match): pass out on em0: 10.138.120.3.58444 > 151.101.249.164.443: Flags [S], seq 459503447, win 65535, options [mss 1460,nop,wscale 6,sackOK,TS[|tcp]>
+ 00:00:00.090133 rule 2/0(match): pass in on em0: 10.53.12.251.54999 > 10.138.120.3.3128: Flags [S], seq 1803562613, win 65535, options [mss 1386,nop,wscale 6,nop,nop,TS[|tcp]>
+ 00:00:00.038745 rule 2/0(match): pass in on em0: 10.53.12.251.55000 > 10.138.120.3.3128: Flags [S], seq 1207515038, win 65535, options [mss 1386,nop,wscale 6,nop,nop,TS[|tcp]>
+ 00:00:00.005814 rule 6/0(match): pass out on em0: 10.138.120.3.15529 > 34.193.240.246.443: Flags [S], seq 3873078930, win 65535, options [mss 1460,nop,wscale 6,sackOK,TS[|tcp]>
+ 00:00:00.000026 rule 6/0(match): pass out on em0: 10.138.120.3.21938 > 216.58.193.174.443: Flags [S], seq 464754766, win 65535, options [mss 1460,nop,wscale 6,sackOK,TS[|tcp]>
+ 00:00:00.007278 rule 2/0(match): pass in on em0: 10.53.12.251.55001 > 10.138.120.3.3128: Flags [S], seq 1659178011, win 65535, options [mss 1386,nop,wscale 6,nop,nop,TS[|tcp]>
+ 00:00:00.026707 rule 6/0(match): pass out on em0: 10.138.120.3.16270 > 108.177.122.121.443: Flags [S], seq 3861176089, win 65535, options [mss 1460,nop,wscale 6,sackOK,TS[|tcp]>
+ 00:00:00.004240 rule 2/0(match): pass in on em0: 10.53.12.251.55002 > 10.138.120.3.3128: Flags [S], seq 439726852, win 65535, options [mss 1386,nop,wscale 6,nop,nop,TS[|tcp]>
+ 00:00:00.016511 rule 6/0(match): pass out on em0: 10.138.120.3.13321 > 192.229.163.25.443: Flags [S], seq 446806122, win 65535, options [mss 1460,nop,wscale 6,sackOK,TS[|tcp]>
+ 00:00:00.167227 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000003 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000001 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.084059 rule 2/0(match): pass in on em0: 10.53.12.251.55003 > 10.138.120.3.3128: Flags [S], seq 1524323808, win 65535, options [mss 1386,nop,wscale 6,nop,nop,TS[|tcp]>
+ 00:00:00.029212 rule 6/0(match): pass out on em0: 10.138.120.3.10107 > 64.233.185.154.443: Flags [S], seq 1204466533, win 65535, options [mss 1460,nop,wscale 6,sackOK,TS[|tcp]>
+ 00:00:00.186672 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.132329 rule 2/0(match): pass in on em0: 10.53.12.251.55004 > 10.138.120.3.3128: Flags [S], seq 2047899977, win 65535, options [mss 1386,nop,wscale 6,nop,nop,TS[|tcp]>
+ 00:00:00.006689 rule 6/0(match): pass out on em0: 10.138.120.3.32689 > 74.125.136.94.80: Flags [S], seq 3171557548, win 65535, options [mss 1460,nop,wscale 6,sackOK,TS[|tcp]>
+ 00:00:00.007187 rule 6/0(match): pass out on em0: 10.138.120.3 > 74.125.136.94: ICMP echo request, id 51062, seq 6912, length 58
+ 00:00:00.082454 rule 2/0(match): pass in on em0: 10.53.12.251.55005 > 10.138.120.3.3128: Flags [S], seq 1248927290, win 65535, options [mss 1386,nop,wscale 6,nop,nop,TS[|tcp]>
+ 00:00:00.010522 rule 2/0(match): pass in on em0: 10.53.12.251.55006 > 10.138.120.3.3128: Flags [S], seq 2099023761, win 65535, options [mss 1386,nop,wscale 6,nop,nop,TS[|tcp]>
+ 00:00:00.000614 rule 2/0(match): pass in on em0: 10.53.12.251.55007 > 10.138.120.3.3128: Flags [S], seq 4199463292, win 65535, options [mss 1386,nop,wscale 6,nop,nop,TS[|tcp]>
+ 00:00:00.001860 rule 6/0(match): pass out on em0: 10.138.120.3.47070 > 199.16.156.75.443: Flags [S], seq 1155550071, win 65535, options [mss 1460,nop,wscale 6,sackOK,TS[|tcp]>
+ 00:00:00.001609 rule 6/0(match): pass out on em0: 10.138.120.3.57033 > 31.13.66.35.443: Flags [S], seq 2123494962, win 65535, options [mss 1460,nop,wscale 6,sackOK,TS[|tcp]>
+ 00:00:00.008797 rule 6/0(match): pass out on em0: 10.138.120.3.32598 > 199.16.156.9.443: Flags [S], seq 704773943, win 65535, options [mss 1460,nop,wscale 6,sackOK,TS[|tcp]>
+ 00:00:00.054597 rule 6/0(match): pass out on em0: 10.138.120.3.32599 > 72.21.91.29.80: Flags [S], seq 1676954305, win 65535, options [mss 1460,nop,wscale 6,sackOK,TS[|tcp]>
+ 00:00:00.003842 rule 2/0(match): pass in on em0: 10.53.12.251.55008 > 10.138.120.3.3128: Flags [S], seq 2429919599, win 65535, options [mss 1386,nop,wscale 6,nop,nop,TS[|tcp]>
+ 00:00:00.003916 rule 6/0(match): pass out on em0: 10.138.120.3.32600 > 72.21.91.29.80: Flags [S], seq 725714336, win 65535, options [mss 1460,nop,wscale 6,sackOK,TS[|tcp]>
+ 00:00:00.002997 rule 6/0(match): pass out on em0: 10.138.120.3 > 72.21.91.29: ICMP echo request, id 51062, seq 7168, length 62
+ 00:00:00.018481 rule 2/0(match): pass in on em0: 10.53.12.251.55009 > 10.138.120.3.3128: Flags [S], seq 2723260242, win 65535, options [mss 1386,nop,wscale 6,nop,nop,TS[|tcp]>
+ 00:00:00.022628 rule 6/0(match): pass out on em0: 10.138.120.3.32601 > 151.101.249.164.443: Flags [S], seq 2421266772, win 65535, options [mss 1460,nop,wscale 6,sackOK,TS[|tcp]>
+ 00:00:00.586360 rule 2/0(match): pass in on em0: 10.53.12.251.55010 > 10.138.120.3.3128: Flags [S], seq 1824615100, win 65535, options [mss 1386,nop,wscale 6,nop,nop,TS[|tcp]>
+ 00:00:00.003025 rule 2/0(match): pass in on em0: 10.53.12.251.55011 > 10.138.120.3.3128: Flags [S], seq 3543250397, win 65535, options [mss 1386,nop,wscale 6,nop,nop,TS[|tcp]>
+ 00:00:00.000597 rule 2/0(match): pass in on em0: 10.53.12.251.55012 > 10.138.120.3.3128: Flags [S], seq 3859629205, win 65535, options [mss 1386,nop,wscale 6,nop,nop,TS[|tcp]>
+ 00:00:00.005673 rule 6/0(match): pass out on em0: 10.138.120.3.32603 > 64.233.185.157.443: Flags [S], seq 1413281789, win 65535, options [mss 1460,nop,wscale 6,sackOK,TS[|tcp]>
+ 00:00:00.001651 rule 6/0(match): pass out on em0: 10.138.120.3.32605 > 104.244.46.48.443: Flags [S], seq 2047843689, win 65535, options [mss 1460,nop,wscale 6,sackOK,TS[|tcp]>
+ 00:00:00.000024 rule 6/0(match): pass out on em0: 10.138.120.3.32606 > 64.233.177.154.443: Flags [S], seq 178716905, win 65535, options [mss 1460,nop,wscale 6,sackOK,TS[|tcp]>
+ 00:00:00.031764 rule 6/0(match): pass out on em0: 10.138.120.3.32607 > 74.125.136.94.80: Flags [S], seq 2077675347, win 65535, options [mss 1460,nop,wscale 6,sackOK,TS[|tcp]>
+ 00:00:05.148794 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.000004 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.000000 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.915333 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.1: igmp query v2
+ 00:00:04.563054 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:01.100108 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:00.000004 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:00.000000 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:16.435332 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000003 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000001 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.450037 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:17.393890 rule 0/0(match): block in on tap0: 10.138.120.6.55342 > 91.189.94.4.123: NTPv4, Client, length 48
+ 00:00:11.755313 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000003 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000001 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.318074 rule 0/0(match): block in on tap0: 10.138.120.6.39616 > 172.98.77.203.123: NTPv4, Client, length 48
+ 00:00:00.081363 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:06.984953 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.000004 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.000001 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.920036 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.1: igmp query v2
+ 00:00:05.358498 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:00.000003 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:00.000001 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:03.399729 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:12.485478 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000003 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000000 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.750066 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:28.549219 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000004 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000000 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:01.350314 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:07.183871 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.000003 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.000001 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.919984 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.1: igmp query v2
+ 00:00:02.859452 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:00.000004 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:00.000001 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:02.899109 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:14.137878 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000004 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000000 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:01.699775 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:27.748744 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000004 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000000 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:01.950221 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:07.782610 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.000004 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.000001 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.479237 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:00.000004 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:00.000000 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:00.440393 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.1: igmp query v2
+ 00:00:05.159417 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:14.087664 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000003 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000001 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:01.999651 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:27.948970 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000003 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000001 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:01.700306 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:08.181947 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.000003 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.000001 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.919108 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.1: igmp query v2
+ 00:00:03.359054 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:00.000003 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:00.000001 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:04.099646 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:11.588541 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000003 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000001 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:01.250516 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:27.898967 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000003 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000001 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:01.900396 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:08.981010 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.000004 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.000000 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.920104 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.1: igmp query v2
+ 00:00:06.358633 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:00.000003 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:00.000001 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:00.899571 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:10.739656 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000003 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000000 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:01.850258 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:27.398575 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000002 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000000 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:02.299917 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:09.530717 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.000004 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.000000 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.919942 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.1: igmp query v2
+ 00:00:01.158716 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:00.000004 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:00.000000 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:00.200583 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:15.338208 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000003 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000001 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:02.800643 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:01.419053 rule 1/0(match): pass in on em0: 10.53.6.247.59053 > 10.138.120.3.4000: Flags [S], seq 1380203345, win 65535, options [mss 1386,nop,wscale 5,nop,nop,TS[|tcp]>
+ 00:00:25.430124 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000004 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:00.000000 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:01.338059 rule 0/0(match): block in on tap0: 10.138.120.6.47313 > 91.189.91.157.123: NTPv4, Client, length 48
+ 00:00:01.661214 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.13: PIMv2, Hello, length 38
+ 00:00:09.730683 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.000003 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.000001 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.0.1: igmp query v2
+ 00:00:00.921465 rule 0/0(match): block in on em0: 10.162.56.254 > 224.0.0.1: igmp query v2
+ 00:00:01.157493 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:00.000004 rule 0/0(match): block in on bridge0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
+ 00:00:00.000000 rule 0/0(match): block in on em0: 10.138.120.254 > 224.0.1.40: igmp v2 report 224.0.1.40
