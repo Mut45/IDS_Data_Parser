@@ -35,15 +35,23 @@ def get_log_from_system():
 
 def parse_pf_data_test(log_data):
     for line in log_data:
-        continue if "reassembly time exceeded" in line
-        continue if "multicast listener report" in line
-        continue if "tcpdump" in line
-        continue if "cookie:" in line
-        continue if "source quench" in line
-        continue if "igmp" in line
-        continue if re.search(r'at-\#',line)
-        if re.search('icmp6', line, re.IGNORECASE) # ICMP6 
-            continue if "who has" in line
+        if "reassembly time exceeded" in line:
+            continue
+        if "multicast listener report" in line:
+            continue
+        if "tcpdump" in line:
+            continue
+        if "cookie:" in line:
+            continue
+        if "source quench" in line:
+            continue
+        if "igmp" in line:
+            continue
+        if re.search(r'at-\#',line):
+            continue
+        if re.search('icmp6', line, re.IGNORECASE): # ICMP6 
+            if "who has" in line:
+                continue
             matchobj = re.match(r'(\w+ \d+ \d+:.\d:.\d+)\.(\d+) rule (\d+)\/\(match\) (\w+ \w+) \w+ (\w+)\: ([a-f0-9\:]+) > ([a-f0-9\:]+).*',line)
         elif re.search('ip6', line, re.IGNORECASE) and re.search('encap', line, re.IGNORECASE): # IPv6 Encapsulation Agent
             matchobj = re.match(r'((\w+ \d+ \d+:.\d:.\d+)\.(\d+) rule (\d+)\/\(match\) (\w+ \w+) \w+ (\w+)\: .*',line)  
@@ -53,7 +61,7 @@ def parse_pf_data_test(log_data):
 
 def parse_pf_data():
     log_data = ""
-    if get_log_from_system() = "null":
+    if get_log_from_system() == "null":
         log_data_name = input("Enter the name of the pf log file to be parsed:")
         log_data = open(log_data_name)
     else:
@@ -81,5 +89,7 @@ def parse_pf_data():
 # Test cases
 #get_rules_test('@1 pass in log proto tcp from any to any port = ldaps flags S/SA keep state')
 
+#test cases for parse_pf_data
+parse_pf_data_test(" 00:00:00.000185 rule 0/0(match): block in on em0: fe80::c4f:2e96:d24e:5364 > ff02::16: HBH ICMP6, multicast listener report v2[|icmp6], length 28")
 
     
